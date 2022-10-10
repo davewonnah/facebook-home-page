@@ -1,0 +1,65 @@
+body{
+    background-color: white;
+}
+
+.container{
+    margin-left: 310px;
+    margin-top: 200px;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.container .one{
+    background-color: white;
+    width: 400px;
+    height: 230px;
+}
+.one h1{
+    color: blue;
+    font-size: 50px;
+}
+.conbtainer .two{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+}
+form {
+    background-color: white;
+    width: 400px;
+    height: 230px;  
+    text-align: center;
+    border: groove;
+}
+form input[type="text"]{
+    width: 360px;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+form .button1{
+    background-color: blue;
+    width: 370px;
+    height: 30px;
+    margin-top: 8px;
+    color: white;
+    border-radius: 5px;
+   
+}
+form .button2{
+    width: 370px;
+    height: 30px;
+    margin-top: 8px;
+    color: blue;
+    border: none;
+    background-color: white;
+}
+form .button3{
+    background-color: rgb(9, 65, 12);
+    width: 200px;
+    height: 36px;
+    margin-top: 8px;
+    color: white;
+    border-radius: 5px;
+}
